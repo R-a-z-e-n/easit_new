@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Easit.ai - Hallucination-Free Voice Assistant",
+  "version": "1.0.0",
+  "description": "The world's first hallucination-free voice assistant. Grounded in real-time data, verified by logic.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://localhost:8000/*",
+    "https://*.vercel.app/*",
+    "https://*.google.com/*"
+  ]
+}
